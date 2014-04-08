@@ -1,0 +1,11 @@
+
+<%= form_for(@post) do |f| %>
+  <div class="form-group">
+    <%= f.label :link %>
+    <%= f.text_field :link %>
+   <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <%= f.submit(:class => "btn btn-danger") %>
+<% end %>
