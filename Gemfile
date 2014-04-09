@@ -22,6 +22,7 @@ group :test, :development do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
   gem 'capybara', :git => "git://github.com/jnicklas/capybara.git"
+  gem 'ffaker'
 
 end
 

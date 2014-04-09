@@ -57,4 +57,14 @@ class PostsController < ApplicationController
     def post_params
       params[:post]
     end
+
+
+
+# private
+
+#   def upvote
+#     @post = Post.new(post_params)
+#     @vote =
+#   end
+
 end
